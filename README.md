@@ -40,6 +40,19 @@ sudo apt install libssl-dev libjsoncpp-dev
 sudo apt-get upgrade
 ```
 
+### Instalación del programa
+La descarga del archivo rats-arm-basics.deb puede alojarse en cualquier lugar de almacenamiento. 
+Se instala a través del comando:
+
+```bash
+sudo dpkg -i rats-arm-basics.deb
+```
+
+Para comprobar su instalación, se puede ejecutar 
+```bash
+ls /os/os/scout.launch.sh
+```
+la respuesta del terminal debe confirmar la existencia del archivo.
 
 ## Modo de uso 
 El instalador genera los directorios necesarios para su funcionamiento. Un servicio necesita ser ejecutado para correr los programas necesarios. Aquí se detalla la manera para ejecutar dicho servicio:
